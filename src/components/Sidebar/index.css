@@ -1,0 +1,205 @@
+.sidebar-container{
+   min-height: 100%;
+    width: 25%;
+    border: 1px solid lightgray;
+    border-radius: 0px 15px 15px 0px;
+    padding: 15px;
+    box-sizing: border-box;
+    
+}
+.sidebar-userdata-container{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.sidebar-logo-contianer{
+    align-self: center;
+
+}
+.sidebar-menu{
+    display: none;
+}
+.sidebar-logo{
+    height: 100px;
+    width: 100px;
+    align-self: center;
+}
+.sidebar-ul-container{
+    list-style-type: none;
+    height: 40%;
+    justify-content: space-between;
+    padding: 10px;
+}
+.sidebar-item{
+    padding-left: 10px;
+   margin: 5px;
+}
+.display-row{
+    display: flex;
+    flex-direction: row;
+}
+.justify-space-between{
+    justify-content: space-between;
+}
+.display-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-element{
+    background: linear-gradient(90deg, #053BD3 0%, #03EAEA 100%);
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.sidebar-icon{
+    padding-right: 10px;
+    
+}
+.new-project-element{
+    border: 1px solid white;
+    border-color: #053BD3 #03EAEA;
+    background: linear-gradient(90deg, #053BD3 40%, #03EAEA 60%);
+    -webkit-background-clip: text;
+    color: transparent;
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 5px;
+    text-align: center;
+    margin-top: 15px;
+}
+.logout-icon{
+    height: 30px;
+    width: 30px;
+    align-self: center;
+}
+
+.profile-container{
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 5px rgb(247, 249, 249);
+    /* margin-top: 70px; */
+}
+.profile-icon{
+    height: 100px;
+    width: 90px;
+}
+.display-on-devices{
+    display: flex;
+}
+
+@media screen and (max-width:780px) {
+    .sidebar-container{
+         width: 30%;
+        
+    }    
+    .sidebar-ul-container{
+        padding: 10px 10px 10px 0px;
+       margin-top: 10px;
+    }
+    .display-on-devices{
+        display: block;
+      }
+}
+
+#display-on-large{
+    display: flex;
+}
+@media screen and (max-width:580px) {
+ 
+    #display-on-large{
+        display: none;
+    }
+    .sidebar-container{
+        height: 80%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        border: 1px solid lightgray;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        box-sizing: border-box;
+        box-shadow: 5px 5px 5px 5px antiquewhite;
+    }
+    .sidebar-userdata-container{
+        height: 45%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }    
+    .sidebar-logo{
+        height: 40px;
+        width: 40px;
+        align-self: flex-start;
+    }
+    .sidebar-logo-contianer{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .sidebar-menu{
+        height: 20px;
+        width: 20px;
+        display: flex;
+        margin: 5px;
+        margin-right: 12px;
+    }
+    .sidebar-ul-container{
+        width: 50%;
+        height: 100%;
+    }
+   .profile-container{
+    height: 30vh;
+    width: 25%;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   padding-right: 10px;
+   }
+    .profile-details-container{
+        height: 60%;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+    justify-content:flex-start;
+    align-items: flex-end;
+      /* box-sizing: border-box; */
+    
+    }
+    .name-position-container{
+        width: 100%;
+        align-items: flex-end;
+        /* justify-content: flex-end; */
+        align-self: flex-end;
+    
+    }
+    .profile-icon{
+        height: 30px;
+        width: 30px;
+    }
+    .logout-icon{
+        align-self: flex-end;
+    }
+    .name-position-container{
+        align-self: flex-start;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .sidebar-ul-container{
+     
+    }
+
+    
+}
+
